@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 20px 0;
-    align-items: flex-end; /* Align buckets to the bottom */
+    align-items: flex-end;
   }
   
   .bucket {
@@ -24,17 +24,17 @@ body {
   }
   
   #bucket1 {
-    width: 120px; /* Largest bucket for 8L */
+    width: 120px;
     height: 250px;
   }
   
   #bucket2 {
-    width: 100px; /* Medium bucket for 5L */
+    width: 100px;
     height: 200px;
   }
   
   #bucket3 {
-    width: 80px; /* Smallest bucket for 3L */
+    width: 80px;
     height: 150px;
   }
   
@@ -67,5 +67,22 @@ body {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+  }
+  
+  footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #0af;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
   }
   
