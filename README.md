@@ -10,4 +10,4 @@ An interactive web application for the "3 Buckets Problem" built with Flask, HTM
 ## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/arch-adi21/3-buckets-problem.git
+   git clone https://github.com/arch-adi21/3bucketGUI.git
