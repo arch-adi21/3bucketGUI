@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 Buckets Problem</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>3 Buckets Problem</h1>
+  <div id="buckets">
+    <div class="bucket" id="bucket1">
+      <div class="water" id="water1"></div>
+      <p>Bucket 1 (8L): <span id="level1">8</span>L</p>
+    </div>
+    <div class="bucket" id="bucket2">
+      <div class="water" id="water2"></div>
+      <p>Bucket 2 (5L): <span id="level2">0</span>L</p>
+    </div>
+    <div class="bucket" id="bucket3">
+      <div class="water" id="water3"></div>
+      <p>Bucket 3 (3L): <span id="level3">0</span>L</p>
+    </div>
+  </div>
+  <div id="controls">
+    <button onclick="pour(0, 1)">Pour 1 -> 2</button>
+    <button onclick="pour(0, 2)">Pour 1 -> 3</button>
+    <button onclick="pour(1, 0)">Pour 2 -> 1</button>
+    <button onclick="pour(1, 2)">Pour 2 -> 3</button>
+    <button onclick="pour(2, 0)">Pour 3 -> 1</button>
+    <button onclick="pour(2, 1)">Pour 3 -> 2</button>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
